@@ -1,10 +1,10 @@
 <script setup>
-import Card from './components/CARD.vue';
-import HelloWorld from './components/HelloWorld.vue';
+import Navbar from './components/Navbar.vue';
+
 </script>
 
 <template lang>
-<Card />
+<Navbar />
 </template>
 
 <style scoped>
