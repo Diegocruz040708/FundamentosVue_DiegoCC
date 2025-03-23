@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.vue';
 import Carrusel from './components/Carrusel.vue';
 import ListaV from './components/ListaV.vue';
 import ListaC from './components/ListaC.vue';
+import Pie from './components/Pie.vue';
 </script>
 
 <template lang>
@@ -14,8 +15,9 @@ import ListaC from './components/ListaC.vue';
     </div>
     
     <ListaV />
+    
 </div>
-
+<Pie />
 </template>
 
 <style scoped>
