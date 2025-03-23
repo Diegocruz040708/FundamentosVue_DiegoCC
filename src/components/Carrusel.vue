@@ -2,18 +2,8 @@
 
 </script>
 <template>
-      <div class="container">
-   
-   <h1>Bienvenido a nuestra página de Videojuegos</h1>
-   <p>
-     "Descubre los videojuegos más populares, adquiere tus títulos preferidos
-     y mantente actualizado con las últimas novedades del mundo gamer.
-     ¡Sumérgete en juegos como Fortnite, Apex Legends, Call of Duty y muchos
-     más!"
-   </p>
- </div>
-      <!-- Inicio del col-md-6 para los juegos mas populares -->
-      <div class="col-md-6">
+      <!-- Inicio del col-md-12 para los juegos mas populares -->
+      <div class="col-md-12">
       <div class="card mt">
         <div style="background-color: #E94560;" class="card-header">
           <h1 style="color: beige; font-size: 40px; font-family: 'Open Sans', sans-serif; text-transform: uppercase; letter-spacing: 3px; text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);">  

@@ -2,12 +2,17 @@
 import Navbar from './components/Navbar.vue';
 import Carrusel from './components/Carrusel.vue';
 import ListaV from './components/ListaV.vue';
+import ListaC from './components/ListaC.vue';
 </script>
 
 <template lang>
 <Navbar />
 <div class="row">
-    <Carrusel />
+    <div class="col-md-6">
+        <Carrusel />
+        <ListaC />
+    </div>
+    
     <ListaV />
 </div>
 
